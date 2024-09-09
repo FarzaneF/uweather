@@ -6,7 +6,7 @@ body {
 
   font-family: Segoe UI, vr, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  /* background-image: url("https://irmapserver.ir/userv/wp.webp"); */
+  /* background-image: url("https://cdn.ituring.ir/userv/wp.webp"); */
   background-size:contain;
   scroll-behavior: smooth;
 
@@ -18,37 +18,37 @@ img[alt]{font-size:3px;}
 
 @font-face {
   font-family: vin;
-  src: url("https://irmapserver.ir/research/75/vin.otf");
+  src: url("https://cdn.ituring.ir/research/75/vin.otf");
 }
 
 @font-face {
   font-family: bm;
-  src: url("https://irmapserver.ir/qepal/bm.woff2");
+  src: url("https://cdn.ituring.ir/qepal/bm.woff2");
 }
 
 @font-face {
   font-family: bb;
-  src: url("https://irmapserver.ir/qepal/fonts/bb.woff2");
+  src: url("https://cdn.ituring.ir/qepal/fonts/bb.woff2");
 }
 
 @font-face {
   font-family: zh;
-  src: url("https://irmapserver.ir/qepal/fonts/zh.otf");
+  src: url("https://cdn.ituring.ir/qepal/fonts/zh.otf");
 }
 
 @font-face {
   font-family: ko;
-  src: url("https://irmapserver.ir/qepal/fonts/ko.otf");
+  src: url("https://cdn.ituring.ir/qepal/fonts/ko.otf");
 }
 
 @font-face {
   font-family: vr;
-  src: url("https://irmapserver.ir/qepal/fonts/vr.woff");
+  src: url("https://cdn.ituring.ir/qepal/fonts/vr.woff");
 }
 
 @font-face {
   font-family: vrb;
-  src: url("https://irmapserver.ir/qepal/fonts/vrb.woff");
+  src: url("https://cdn.ituring.ir/qepal/fonts/vrb.woff");
 }
 
 .ace_autocomplete {
@@ -168,7 +168,7 @@ lkg-s,
 lkr-s,
 lkr-v,
 lkg-v {
-  background-image: url("https://irmapserver.ir/qepal/likegreen.svg");
+  background-image: url("https://cdn.ituring.ir/qepal/likegreen.svg");
   background-repeat: no-repeat;
   background-position: center;
   height: 21px;
@@ -188,7 +188,7 @@ lkg-v {
 
 lkr-s,
 lkr-v {
-  background-image: url("https://irmapserver.ir/qepal/likered3.svg");
+  background-image: url("https://cdn.ituring.ir/qepal/likered3.svg");
   transform: rotate(180deg);
 }
 

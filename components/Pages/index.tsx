@@ -17,15 +17,15 @@ const Page: PageEl = (props, state, refresh, getProps) => {
   return (
     <div style={{ direction: "ltr", minHeight: "11vh", }}>
       <br-x />
-      <Window title={"Weather Servies"} style={{ minHeight: 300, margin: 10, width: "calc(100% - 20px)" ,backgroundImage:'url("https://irmapserver.ir/research/75/images.jpeg")',backgroundRepeat:"no-repeat",backgroundSize:"cover"}}>
+      <Window title={"Weather Servies"} style={{ minHeight: 300, margin: 10, width: "calc(100% - 20px)" ,backgroundImage:'url("https://cdn.ituring.ir/research/75/images.jpeg")',backgroundRepeat:"no-repeat",backgroundSize:"cover"}}>
 
-        {/* <img src="https://irmapserver.ir/research/75/temp2.webp" style={{height:40,objectFit:"contain"}}/> */}
+        {/* <img src="https://cdn.ituring.ir/research/75/temp2.webp" style={{height:40,objectFit:"contain"}}/> */}
 
         <c-x style={{}}>
           <f-25 style={{padding:"10px 10px",color:"white",textAlign:"center",fontFamily:"readme"}}>Shiraz </f-25>
           <f-cse>
             <f-cc style={{height:80 , width:300, backgroundColor:"steelblue",borderRadius:15}}>
-              <img src="https://irmapserver.ir/research/75/temp2.webp" style={{height:30,objectFit:"contain"}}/>
+              <img src="https://cdn.ituring.ir/research/75/temp2.webp" style={{height:30,objectFit:"contain"}}/>
               <sp-3/>
               <f-cc>
                 <f-25>Temprature : </f-25>
@@ -38,7 +38,7 @@ const Page: PageEl = (props, state, refresh, getProps) => {
             </f-cc>
 
             <f-cc style={{height:80 , width:300, backgroundColor:"steelblue",borderRadius:15}}>
-              <img src="https://irmapserver.ir/research/75/pic.jpeg" style={{height:30,objectFit:"contain"}}/>
+              <img src="https://cdn.ituring.ir/research/75/pic.jpeg" style={{height:30,objectFit:"contain"}}/>
               <sp-3/>
               <f-cc>
                 <f-25>Pressure : </f-25>
@@ -54,7 +54,7 @@ const Page: PageEl = (props, state, refresh, getProps) => {
           <br-x/>
           <f-cse>
             <f-cc style={{height:80 , width:300, backgroundColor:"steelblue",borderRadius:15}}>
-              <img src="https://irmapserver.ir/research/75/Untitled.jpeg" style={{height:30,objectFit:"contain"}}/>
+              <img src="https://cdn.ituring.ir/research/75/Untitled.jpeg" style={{height:30,objectFit:"contain"}}/>
               <sp-3/>
               <f-cc>
                 <f-25>Humidity : </f-25>
@@ -66,7 +66,7 @@ const Page: PageEl = (props, state, refresh, getProps) => {
             </f-cc>
 
             <f-cc style={{height:80 , width:300, backgroundColor:"steelblue",borderRadius:15}}>
-              <img src="https://irmapserver.ir/research/75/cloud.png" style={{height:30,objectFit:"contain"}}/>
+              <img src="https://cdn.ituring.ir/research/75/cloud.png" style={{height:30,objectFit:"contain"}}/>
               <sp-3/>
               <f-cc>
                 <f-25>Cloudcover : </f-25>
@@ -120,7 +120,7 @@ export async function getServerSideProps(context) {
     role, path, devmod, userip, } = session;
 
 
-    let data = await(await fetch("https://irmapserver.ir/research/api/weather/")).json()
+    let data = await(await fetch("https://cdn.ituring.ir/research/api/weather/")).json()
 
     let feelslikec = data.current_condition[0].FeelsLikeC
     let humidity = data.current_condition[0].humidity

@@ -14,11 +14,11 @@ body {
 
 @font-face {
   font-family: vr;
-  src: url("https://irmapserver.ir/qepal/fonts/vr.woff");
+  src: url("https://cdn.ituring.ir/qepal/fonts/vr.woff");
 }
 @font-face {
   font-family: vrb;
-  src: url("https://irmapserver.ir/qepal/fonts/vrb.woff");
+  src: url("https://cdn.ituring.ir/qepal/fonts/vrb.woff");
 }
 
 
@@ -141,7 +141,7 @@ lkg-s,
 lkr-s,
 lkr-v,
 lkg-v {
-  background-image: url("https://irmapserver.ir/qepal/likegreen.svg");
+  background-image: url("https://cdn.ituring.ir/qepal/likegreen.svg");
   background-repeat: no-repeat;
   background-position: center;
   height: 21px;
@@ -161,7 +161,7 @@ lkg-v {
 
 lkr-s,
 lkr-v {
-  background-image: url("https://irmapserver.ir/qepal/likered3.svg");
+  background-image: url("https://cdn.ituring.ir/qepal/likered3.svg");
   transform: rotate(180deg);
 }
 
